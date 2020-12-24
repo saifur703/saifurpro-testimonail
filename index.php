@@ -83,4 +83,4 @@ register_post_type( "my-testimonials", $args );
 
 add_action( 'init', 'saifurpro_testimonial' );
 
-require_once( dirname( __FILE__ ) . "./acf.php");
+require_once plugin_dir_path( __FILE__ ) . 'acf.php';
